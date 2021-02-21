@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../images/carbon.jpg');
+  background-position: top;
+  background-size: cover;
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+header{
+  padding: 10px 5%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title{
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #29f1c3;
+}

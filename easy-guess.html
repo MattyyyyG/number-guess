@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GuessTheNumber</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/guess.css">
+  </head>
+  <body>
+    <header>
+      <a class="title" href="index.html">GuessTheNumber</a>
+    </header>
+    <section>
+      <div class="game-container">
+        <div class="game-info">
+          <p>Game Difficulty: Easy</p>
+          <p>(Enter a number 1-20)</p>
+          <p class="curr-score">Score: <span class="c-score">20</span></p>
+          <p class="high-score">High Score: <span class="h-score">0</span></p>
+        </div>
+        <div class="game-number">
+          <p class="num">?</p>
+        </div>
+        <div class="game-guess">
+          <p class="game-message">Start Guessing...</p>
+          <input class="guess-input" type="number">
+          <button class="guess-check" type="button">Check Answer</button>
+          <button class="guess-again" type="button">Play Again</button>
+        </div>
+      </div>
+    </section>
+    <script src="js/game-script-easy.js" charset="utf-8"></script>
+  </body>
+</html>

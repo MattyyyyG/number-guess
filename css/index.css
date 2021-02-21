@@ -1,0 +1,59 @@
+.play-container{
+  padding: 5% 10%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.play-head{
+  margin: 10px 0;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.play-div{
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+
+}
+
+.play-div a{
+  margin: 10px 20px;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #00e640;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: white solid 1px;
+  border-radius: 5px;
+}
+
+/*
+
+------ CREDITS CONTAINER ------
+
+*/
+
+.creds-container{
+  margin: 10px 0;
+}
+
+.creds-head{
+  text-align: center;
+  font-weight: 600;
+}
+
+.creds-info{
+  text-align: center;
+}
+
+.creds-info a{
+  text-decoration: none;
+  color: #fff;
+}
